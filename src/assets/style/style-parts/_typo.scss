@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600&family=Roboto:ital,wght@0,100;0,300;1,300&family=Urbanist:ital,wght@1,300&display=swap');
 
+body {
+    font-family: var(--typo_serif);
+}
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
 ul li {
     list-style: none;
 }
@@ -9,4 +16,14 @@ a {
     &:hover {
         color: inherit;
     }
+}
+button,
+input {
+    border-radius: 1.875rem;
+    border: none;
+    padding: .9375rem 1.25rem;
+}
+button {
+    text-transform: uppercase;
+    color: var(--secondary_color);
 }
