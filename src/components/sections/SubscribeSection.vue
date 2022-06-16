@@ -1,12 +1,15 @@
 <template>
-  <div class="container subscribe_box">
-    <div class="row py-5 justify-content-evenly">
-        <div class="col-6">
-          <SubForm />
-        </div>
-        <div class="col-5 counter">
-          <SubCounter />
-        </div>
+  <div class="container_custom subscribe_box">
+    <div class="container-fluid">
+      <div class="row py-5 justify-content-evenly">
+          <div class="col-6">
+            <SubForm />
+          </div>
+          <div class="col-5 counter">
+            <SubCounter />
+          </div>
+      </div>
+
     </div>
   </div>
 </template>

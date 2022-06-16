@@ -20,13 +20,7 @@ a {
         color: inherit;
     }
 }
-button,
-input {
-    border-radius: 1.875rem;
-    border: none;
-    padding: .9375rem 1.25rem;
-}
-button {
-    text-transform: uppercase;
-    color: var(--secondary_color);
+hr {
+    margin: 1rem auto;
+    width: 90%;
 }

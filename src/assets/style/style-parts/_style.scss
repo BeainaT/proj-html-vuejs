@@ -1,0 +1,15 @@
+.container_custom {
+    max-width: 68.75rem;
+    margin: 0 auto;
+}
+button,
+input {
+    border-radius: 1.875rem;
+    border: none;
+    padding: .625rem 1.25rem;
+}
+
+button {
+    text-transform: uppercase;
+    color: var(--secondary_color);
+}

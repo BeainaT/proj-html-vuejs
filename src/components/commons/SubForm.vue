@@ -2,11 +2,11 @@
     <div class="row">
         <div class="col-12">
             <h3><span>limited sale:</span> All courses with 55% off</h3>
-            <form class="col-12">
-                <input type="text" placeholder="Enter your E-mail">
-                <button>subscribe</button>
-            </form>
-        </div>
+            </div>
+        <form class="col-12">
+            <input type="text" placeholder="Enter your E-mail">
+            <button>subscribe</button>
+        </form>
     </div>
 </template>
 
