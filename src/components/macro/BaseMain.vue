@@ -4,7 +4,8 @@
     <FounderWishes />
     <CourseSection />
     <BookSection />
-    <HighLights/>    
+    <HighLights/>
+    <CounterSection/>
   </main>
 </template>
 
@@ -14,6 +15,7 @@ import FounderWishes from '../sections/FounderWishes.vue';
 import CourseSection from '../sections/CourseSection.vue';
 import BookSection from '../sections/BookSection.vue';
 import HighLights from '../sections/HighLights.vue';
+import CounterSection from '../sections/CounterSection.vue';
 export default {
     name: 'BaseMain',
     components: {
@@ -21,7 +23,8 @@ export default {
     FounderWishes,
     CourseSection,
     BookSection,
-    HighLights
+    HighLights,
+    CounterSection
 }
 }
 </script>
