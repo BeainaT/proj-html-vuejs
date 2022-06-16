@@ -3,6 +3,7 @@
     <HeroSection />
     <FounderWishes />
     <CourseSection />
+    <BookSection />
   </main>
 </template>
 
@@ -10,12 +11,14 @@
 import HeroSection from '../sections/HeroSection.vue';
 import FounderWishes from '../sections/FounderWishes.vue';
 import CourseSection from '../sections/CourseSection.vue';
+import BookSection from '../sections/BookSection.vue';
 export default {
     name: 'BaseMain',
     components: {
     HeroSection,
     FounderWishes,
-    CourseSection
+    CourseSection,
+    BookSection
 }
 }
 </script>
