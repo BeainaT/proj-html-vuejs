@@ -36,9 +36,9 @@ export default {
             font-size: 3.125rem;
             color: var(--primary_color);
         }
-    .details_col {
-        padding: 0 1.25rem;
-    }
+        .details_col {
+            padding: 0 1.25rem;
+        }
     }
 }
 </style>

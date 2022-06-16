@@ -26,7 +26,8 @@ export default {
             type: "Electronic",
             level: "Advanced",
             total: "8 Lectures",
-            time : "6 hours"
+            time : "6 hours",
+            isSpecial: true
           },
           {
             img: require("../../assets/img/12345-1-370x200.png"),
@@ -34,7 +35,8 @@ export default {
             type: "Nvidia",
             level: "Advanced",
             total: "8 Lectures",
-            time : "6 hours"
+            time : "6 hours",
+            isSpecial: true
 
           },
           {
@@ -43,7 +45,8 @@ export default {
             type: "Fashion",
             level: "Advanced",
             total: "6 Lectures",
-            time : "6 hours"
+            time : "6 hours",
+            isSpecial: true
           },
           {
             img: require("../../assets/img/photo-1416339134316-0e91dc9ded92-370x200.jpeg"),
@@ -51,7 +54,8 @@ export default {
             type: "Communication",
             level: "Intermediate",
             total: "6 Lectures",
-            time : "6 hours"
+            time : "6 hours",
+            isSpecial: false
           },
           {
             img: require("../../assets/img/cathryn-lavery-67852-unsplash-370x200.jpg"),
@@ -59,7 +63,8 @@ export default {
             type: "Art",
             level: "Intermediate",
             total: "6 Lectures",
-            time : "6 hours"
+            time : "6 hours",
+            isSpecial: false
           },
           {
             img: require("../../assets/img/photo-1475452779376-caebfb988090-370x200.jpeg"),
@@ -67,7 +72,8 @@ export default {
             type: "Bicycling",
             level: "Beginner",
             total: "6 Lectures",
-            time : "6 hours"
+            time : "6 hours",
+            isSpecial: false
           },
         ]
       }
@@ -93,6 +99,7 @@ export default {
       font-weight: bold;
       padding: .625rem 1.25rem;
     }
+
   }
 
 </style>

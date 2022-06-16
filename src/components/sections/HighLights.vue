@@ -2,7 +2,7 @@
   <section class="container py-5">
     <h2>Why my Courses?</h2>
     <div class="row py-5 justify-content-between">
-        <HighLightsCard class="col-6" v-for="(best, i) in bests" :key="'best' + i" :best="best"/>
+        <HighLightsCard v-for="(best, i) in bests" :key="'best' + i" :best="best"/>
     </div>
   </section>
 </template>

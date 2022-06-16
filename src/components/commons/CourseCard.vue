@@ -1,5 +1,5 @@
 <template>
-  <div class="course_card p-0">
+  <div class="course_card p-0" :class="{special_badge : course.isSpecial}">
         <img :src="course.img" :alt="course.typo">
         <div class="details px-2">
             <h5>{{course.title}}</h5>
@@ -29,6 +29,21 @@ export default {
         font-family: var(--typo_sans_serif);
         border: 1px solid var(--card_line);
         width: calc(100% / 3 - 20px);
+        position: relative;
+        &.special_badge::after {
+            content:"SPECIAL";
+            background-color: var(--special_badge);
+            color: var(--secondary_color);
+            border-radius: .1875rem;
+            font-weight: 400;
+            font-family: var(--typo_serif);
+            font-size: 0.75rem;
+            padding: .25rem;
+            position: absolute;
+            top: .625rem;
+            right: .625rem;
+
+        }
         img {
             width: 100%;
             min-height: 12.5rem;
