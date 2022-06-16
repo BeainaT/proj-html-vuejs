@@ -1,5 +1,5 @@
 <template>
-  <div class="course_card">
+  <div class="course_card p-0">
         <img :src="course.img" :alt="course.typo">
         <div class="details px-2">
             <h5>{{course.title}}</h5>
@@ -28,6 +28,7 @@ export default {
         background-color: var(--secondary_color);
         font-family: var(--typo_sans_serif);
         border: 1px solid var(--card_line);
+        width: calc(100% / 3 - 20px);
         img {
             width: 100%;
             min-height: 12.5rem;

@@ -3,7 +3,7 @@
     <div class="container py-5">
       <h2>new courses</h2>
       <div class="row justify-content-center pb-5">
-        <CourseCard class="col-3 p-0" v-for="(course, i) in courses" :key="i" :course="course" />
+        <CourseCard v-for="(course, i) in courses" :key="i" :course="course" />
       </div>
       <button>load more</button>
     </div>
@@ -90,6 +90,8 @@ export default {
     }
     button {
       background-color: var(--primary_color);
+      font-weight: bold;
+      padding: .625rem 1.25rem;
     }
   }
 

@@ -1,9 +1,6 @@
 <template>
   <section>
-    <!-- <div class="container_custom"> -->
-        <BookShop/>
-
-    <!-- </div> -->
+    <BookShop/>
   </section>
 </template>
 
