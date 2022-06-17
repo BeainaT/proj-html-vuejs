@@ -1,5 +1,6 @@
 <template>
   <div class="col-3">
+    <h4>contact</h4>
     <div v-for="(contact, i) in contacts" :key="'contact' + i">
         <address>{{contact.adress}}</address>
         <address>Tel.: {{contact.phone}} <br> Fax: {{contact.fax}}</address>

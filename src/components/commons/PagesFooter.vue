@@ -1,5 +1,6 @@
 <template>
   <div class="col-3">
+    <h4>pages</h4>
     <div class="row">
 
         <ul class="col-6" v-for="pageLink in pageLinks" :key="pageLink">
@@ -31,6 +32,7 @@ export default {
 ul li {
     list-style: disc;
     text-transform: capitalize;
+    margin-left: 1rem;
 }
 
 </style>

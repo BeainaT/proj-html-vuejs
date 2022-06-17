@@ -1,5 +1,6 @@
 <template>
   <div class="col-3">
+    <h4>blog</h4>
     <div class="row">
         <div class="col-12 d-flex" v-for="(blogLink, i) in blogLinks" :key="'blogLink' + i">
         <div class="row">
