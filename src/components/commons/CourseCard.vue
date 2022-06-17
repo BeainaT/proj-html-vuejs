@@ -1,6 +1,10 @@
 <template>
   <div class="course_card p-0" :class="{special_badge : course.isSpecial}">
-        <img :src="course.img" :alt="course.typo">
+        <div class="hover_box">
+            <img :src="course.img" :alt="course.typo">
+            <span>$59</span>
+
+        </div>
         <div class="details px-2">
             <h5>{{course.title}}</h5>
             <span>{{course.type}}</span>
@@ -44,10 +48,30 @@ export default {
             right: .625rem;
 
         }
+        &:hover img {
+            filter: brightness(0.7);
+        }
+        &:hover .hover_box span {
+            display: block;
+        }
+        .hover_box {
+            position: relative;
+            span {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: var(--secondary_color);
+                font-size: 2rem;
+                font-weight: bold;
+                display: none;
+            }
+        }
         img {
             width: 100%;
             min-height: 12.5rem;
             margin-bottom: 1rem;
+            position:relative;
         }
         h5 {
             font-family: var(--typo_serif);

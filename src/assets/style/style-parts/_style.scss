@@ -7,6 +7,10 @@
     margin: 0 auto;
     text-align: center;
 }
+.container_medium {
+    max-width: 50rem;
+    margin: 0 auto;
+}
 button,
 input {
     border-radius: 1.875rem;
@@ -17,4 +21,7 @@ input {
 button {
     text-transform: uppercase;
     color: var(--secondary_color);
+    &:hover {
+        transform: scale(1.1);
+    }
 }
