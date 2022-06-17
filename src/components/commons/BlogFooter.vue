@@ -1,9 +1,9 @@
 <template>
   <div class="col-3">
-    <h4>blog</h4>
-    <div class="row">
+    <h5>blog</h5>
+    <div class="row gy-3">
         <div class="col-12 d-flex" v-for="(blogLink, i) in blogLinks" :key="'blogLink' + i">
-        <div class="row">
+        <div class="row align-items-end">
             <div class="col-4">
                 <img :src="blogLink.img" alt="article img">
             </div>
@@ -46,7 +46,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-img {
-    width: 100%
-}
+    img {
+        width: 100%;
+        transform: scale(0.9);
+    }
+    h6 {
+        margin-bottom: 0;
+    }
+    small {
+        font-family: var(--sans_serif);
+        color: #808080;
+    }
 </style>

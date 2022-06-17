@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="container d-flex justify-content-around py-4">
+    <div class="container d-flex justify-content-around py-4 flex-wrap">
       <HeaderLogo />
       <HeaderRight/>
     </div>

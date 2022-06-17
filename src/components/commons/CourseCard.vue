@@ -28,7 +28,7 @@ export default {
         background-color: var(--secondary_color);
         font-family: var(--typo_sans_serif);
         border: 1px solid var(--card_line);
-        width: calc(100% / 3 - 20px);
+        width: calc(100% / 4);
         position: relative;
         &.special_badge::after {
             content:"SPECIAL";

@@ -1,8 +1,12 @@
 <template>
   <div class="col-3">
-    <h4>about</h4>
-    <p><a href="#">MasterStudy</a> is Education WordPress theme featured by Learning Menagement System (LMS) for online education. Developed by <a href="#">StylemixThemes</a>.</p>
-    <i v-for="(social, i) in footerSocial" :class="social" :key="'social' + i"></i>
+    <h5>about</h5>
+    <p>
+        <a href="#">MasterStudy</a> is Education WordPress theme featured by Learning Menagement System (LMS) for online education. Developed by <a href="#">StylemixThemes</a>.
+    </p>
+    <div class="col-4 d-flex justify-content-between icon">
+        <i v-for="(social, i) in footerSocial" :class="social" :key="'social' + i"></i>
+    </div>
   </div>
 </template>
 
@@ -21,6 +25,12 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+    a {
+        color: #010158;
+    }
+    .icon {
+        font-size: 1.25rem;
+    }
 
 </style>

@@ -1,6 +1,8 @@
 <template>
   <footer>
-    <FooterTopics/>
+    <small>
+      <FooterTopics/>
+    </small>
   </footer>
 </template>
 
@@ -18,6 +20,7 @@ export default {
 footer {
   background-color: var(--primary_color);
   color: var(--text_nav);
+  font-weight: 300;
 }
 
 </style>

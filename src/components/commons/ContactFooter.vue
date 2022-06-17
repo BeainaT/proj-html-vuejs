@@ -1,7 +1,7 @@
 <template>
   <div class="col-3">
-    <h4>contact</h4>
-    <div v-for="(contact, i) in contacts" :key="'contact' + i">
+    <h5>contact</h5>
+    <div class="contact_font" v-for="(contact, i) in contacts" :key="'contact' + i">
         <address>{{contact.adress}}</address>
         <address>Tel.: {{contact.phone}} <br> Fax: {{contact.fax}}</address>
         <small>{{contact.mail}}</small>
@@ -28,6 +28,9 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+.contact_font {
+    font-family: var(--typo_sans_serif);
+}
 
 </style>

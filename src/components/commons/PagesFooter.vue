@@ -1,10 +1,9 @@
 <template>
   <div class="col-3">
-    <h4>pages</h4>
+    <h5>pages</h5>
     <div class="row">
-
         <ul class="col-6" v-for="pageLink in pageLinks" :key="pageLink">
-            <li>{{pageLink}}</li>
+            <li><a href="#">{{pageLink}}</a></li>
         </ul>
     </div>
   </div>
@@ -29,10 +28,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-ul li {
-    list-style: disc;
-    text-transform: capitalize;
-    margin-left: 1rem;
-}
+    ul li {
+        list-style: disc;
+        text-transform: capitalize;
+        margin-left: 1rem;
+    }
 
 </style>

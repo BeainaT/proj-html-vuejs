@@ -26,6 +26,10 @@ export default {
         > .row {
             gap: 1.875rem;
         }
+        h2 {
+            font-size: 2rem;
+            margin-top: 0;
+        }
         .sign_box {
             text-align: center;
         }

@@ -1,5 +1,5 @@
 <template>
-  <div class="container py-5">
+  <div class="container py-5 topics_section">
         <div class="row">
             <AboutFooter/>
             <ContactFooter/>
@@ -27,8 +27,7 @@ export default {
 </script>
 
 <style lang="scss">
-    h4 {
-        text-transform: uppercase;
+    .topic_section {
+        font-family: var(--typo_serif);
     }
-
 </style>
