@@ -1,13 +1,23 @@
 <template>
-  <footer></footer>
+  <footer>
+    <FooterTopics/>
+  </footer>
 </template>
 
 <script>
+import FooterTopics from '../sections/FooterTopics.vue';
 export default {
-    name: 'BaseFooter'
+    name: 'BaseFooter',
+    components: {
+    FooterTopics
+    }
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+footer {
+  background-color: var(--primary_color);
+  color: var(--text_nav);
+}
 
 </style>
