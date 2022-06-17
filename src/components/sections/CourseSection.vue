@@ -2,7 +2,7 @@
   <section>
     <div class="container py-5">
       <h2>new courses</h2>
-      <div class="row justify-content-center pb-5">
+      <div class="row py-3 justify-content-center pb-5">
         <CourseCard v-for="(course, i) in courses" :key="i" :course="course" />
       </div>
       <button>load more</button>
@@ -87,9 +87,6 @@ export default {
     text-align: center;
     h2 {
       text-transform: capitalize;
-      font-weight: bold;
-      font-size: 2.5rem;
-      margin-bottom: 2rem;
     }
     .row {
       gap: 1.25rem
@@ -98,6 +95,7 @@ export default {
       background-color: var(--primary_color);
       font-weight: bold;
       padding: .625rem 1.25rem;
+      margin-bottom: 1.25rem;
     }
 
   }

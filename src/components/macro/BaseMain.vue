@@ -6,6 +6,7 @@
     <BookSection />
     <HighLights/>
     <CounterSection/>
+    <StudentsOpinion/>
   </main>
 </template>
 
@@ -16,6 +17,7 @@ import CourseSection from '../sections/CourseSection.vue';
 import BookSection from '../sections/BookSection.vue';
 import HighLights from '../sections/HighLights.vue';
 import CounterSection from '../sections/CounterSection.vue';
+import StudentsOpinion from '../sections/StudentsOpinion.vue';
 export default {
     name: 'BaseMain',
     components: {
@@ -24,7 +26,8 @@ export default {
     CourseSection,
     BookSection,
     HighLights,
-    CounterSection
+    CounterSection,
+    StudentsOpinion
 }
 }
 </script>
