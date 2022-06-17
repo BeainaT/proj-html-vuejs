@@ -1,6 +1,6 @@
 <template>
   <div class="why_cards d-flex align-items center col-5">
-    <div class="row justify-content-between">
+    <div class="row justify-content-evenly">
         <div class="col-2 icon_col py-5">
             <span><i :class="best.icon"></i></span>
         </div>
